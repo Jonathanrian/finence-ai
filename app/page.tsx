@@ -1,5 +1,6 @@
-const Home = () => {
-  return <h1 className="flex-1 p-5 text-red-500">Hello world</h1>;
-};
+import { Button } from "./_components/ui/button";
 
+const Home = () => {
+  return <Button>Home</Button>;
+};
 export default Home;
